@@ -1,0 +1,607 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1696343427761512, "dur":1297, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427762815, "dur":104, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1696343427762948, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1696343427762968, "dur":366, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1696343427763361, "dur":634, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427763995, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427897744, "dur":308, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898052, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898077, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898081, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898089, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898091, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898098, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898100, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898107, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898109, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898116, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898117, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898124, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898126, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898134, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898136, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898142, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898144, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898151, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898153, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898160, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898161, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898168, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898170, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898177, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898185, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427898209, "dur":2899, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1696343427763584, "dur":417, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427764003, "dur":3557, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427767577, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1696343427767592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427768085, "dur":242, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1696343427768328, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1696343427768368, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427769090, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1696343427771079, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1696343427771118, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427771724, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1696343427772748, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1696343427772769, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427772853, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1696343427774358, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427774388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427774731, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427776136, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl.exe" }}
+,{ "pid":12345, "tid":1, "ts":1696343427776188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427776216, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl.exe" }}
+,{ "pid":12345, "tid":1, "ts":1696343427778085, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427778141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427778579, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427780210, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427780261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427780318, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427781680, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427781716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427781720, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427783150, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427783190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427783263, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427784723, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427784781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427784788, "dur":1774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427786626, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427786718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427786726, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427788754, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427789245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427789252, "dur":2557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427791849, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427791894, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427791900, "dur":2272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427794216, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427794312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427794318, "dur":3570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427797927, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427797975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427798004, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427801010, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427801063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427801068, "dur":4337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427805454, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427805512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427805519, "dur":3370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427808969, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427809152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427809158, "dur":4451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427813660, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427813854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427813860, "dur":3789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427817695, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427817736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427817741, "dur":4961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427822807, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427822881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427822887, "dur":7802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696343427830744, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1696343427830786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696343427830792, "dur":4663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1696343427835499, "dur":62241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427763621, "dur":390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427764012, "dur":3561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427767576, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1696343427767636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427773082, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1696343427774262, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1696343427774287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427774296, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1696343427775521, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427775542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427775546, "dur":17801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427793378, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427793452, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427793482, "dur":2619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427796146, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427796191, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427796197, "dur":3438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427799680, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427799727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427799732, "dur":3438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427803213, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427803281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427803287, "dur":3816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427807147, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427807335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427807343, "dur":3020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427810404, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427810525, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427810531, "dur":3463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427814045, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427814198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427814276, "dur":3762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427818090, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427818130, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427818136, "dur":3862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427822042, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427822108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427822142, "dur":4850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696343427827061, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1696343427827103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427827111, "dur":2381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1696343427829569, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1696343427829653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696343427829660, "dur":68003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1696343427897712, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1696343427897714, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696343427763654, "dur":367, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696343427764021, "dur":3554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696343427767576, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1696343427767682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696343427807853, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1696343427809303, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696343427809527, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696343427809532, "dur":2947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696343427812541, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696343427812580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696343427812585, "dur":3955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696343427816578, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696343427816619, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696343427816624, "dur":4319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696343427821001, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696343427821048, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696343427821053, "dur":6215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696343427827316, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1696343427827370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696343427827376, "dur":2766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1696343427830177, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1696343427830229, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696343427830233, "dur":3829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/level5" }}
+,{ "pid":12345, "tid":3, "ts":1696343427834119, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1696343427834306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696343427834312, "dur":2135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1696343427836507, "dur":61272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696343427763611, "dur":395, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696343427764006, "dur":3561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696343427767576, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1696343427767660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696343427788060, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1696343427790122, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427790226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696343427790232, "dur":3447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427793715, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427793793, "dur":20, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696343427793824, "dur":3039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427796903, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427796943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696343427796948, "dur":3319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427800317, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427800370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696343427800375, "dur":3775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427804212, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427804298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696343427804303, "dur":3191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427807537, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427807742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696343427807747, "dur":3675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427811499, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427811859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696343427811866, "dur":4378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427816281, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427816388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696343427816394, "dur":3838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427820272, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427820465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696343427820479, "dur":4095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427824612, "dur":21367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427845988, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696343427846728, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696343427847874, "dur":49868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427763648, "dur":368, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427764016, "dur":3558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427767576, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1696343427767642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427778668, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1696343427780584, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427780646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427780653, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427782201, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427782263, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427782269, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427783583, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427783631, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427783637, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427785011, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427785055, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427785059, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427786834, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427786899, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427786905, "dur":2962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427789932, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427790035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427790042, "dur":3379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427793487, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427793571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427793577, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427795635, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427795690, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427795697, "dur":3023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427798772, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427798815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427798821, "dur":3147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427802009, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427802057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427802063, "dur":3401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427805508, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427805735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427805741, "dur":2630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427808415, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427808554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427808560, "dur":3262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427811870, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427811941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427811948, "dur":3556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427815542, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427815579, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427815584, "dur":5849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427821466, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427821507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427821513, "dur":3100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696343427824664, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1696343427824779, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427825470, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1696343427827084, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1696343427827125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427827154, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1696343427829106, "dur":1247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1696343427830356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696343427830363, "dur":4083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1696343427834499, "dur":63264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427763694, "dur":331, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427764026, "dur":3556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427767583, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1696343427767646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427786437, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1696343427787988, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427788045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427788052, "dur":3298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427791393, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427791447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427791454, "dur":2876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427794377, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427794415, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427794419, "dur":2994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427797457, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427797510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427797517, "dur":3334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427800927, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427800977, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427800982, "dur":4459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427805509, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427805909, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427805914, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427809146, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427809278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427809284, "dur":3445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427812765, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427812815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427812820, "dur":4157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427817020, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427817075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427817080, "dur":4419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427821537, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427821578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427821584, "dur":4495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696343427826119, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1696343427826157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427826162, "dur":3530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1696343427829797, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1696343427829837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427829842, "dur":3467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1696343427833363, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1696343427833452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696343427833458, "dur":3044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1696343427836547, "dur":61212, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427763714, "dur":317, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427764031, "dur":3545, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427767579, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1696343427767613, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427769459, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1696343427771145, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1696343427771164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427771511, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1696343427772788, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1696343427772811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427772860, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1696343427774304, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1696343427774317, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427774321, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1696343427775704, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1696343427775725, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427775729, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1696343427777721, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1696343427777743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427778070, "dur":12538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1696343427790636, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427790687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427790693, "dur":3017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427793764, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427793814, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427793819, "dur":2704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427796573, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427796627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427796633, "dur":3342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427800025, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427800132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427800137, "dur":3705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427803886, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427803945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427803951, "dur":3295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427807292, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427807446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427807453, "dur":3735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427811248, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427811399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427811406, "dur":4033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427815487, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427815627, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427815633, "dur":3651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427819388, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427819438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427819443, "dur":4092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427823571, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427823769, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427823774, "dur":3732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696343427827550, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1696343427827597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427827602, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1696343427829926, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/level6" }}
+,{ "pid":12345, "tid":7, "ts":1696343427829987, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427829991, "dur":3097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/level6" }}
+,{ "pid":12345, "tid":7, "ts":1696343427833134, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1696343427833190, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696343427833196, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1696343427836036, "dur":61748, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427763737, "dur":299, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427764036, "dur":3542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427767578, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1696343427767618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427772974, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1696343427774148, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1696343427774164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427774172, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1696343427775443, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427775468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427775526, "dur":5885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427781434, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427781485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427781490, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427783101, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427783168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427783175, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427784698, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427784761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427784767, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427786573, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427786636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427786642, "dur":2576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427789267, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427789321, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427789327, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427792174, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427792218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427792224, "dur":3021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427795298, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427795341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427795347, "dur":2982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427798385, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427798437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427798443, "dur":3303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427801805, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427801849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427801854, "dur":3967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427805876, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427806428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427806437, "dur":3680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427810158, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427810287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427810296, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427813265, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427813305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427813311, "dur":4119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427817481, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427817531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427817541, "dur":3952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427821526, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427821561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427821566, "dur":4361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696343427825963, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1696343427826002, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427826007, "dur":2119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1696343427828169, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1696343427828214, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696343427828219, "dur":9074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1696343427837341, "dur":60429, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696343427763762, "dur":278, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696343427764040, "dur":3539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696343427767579, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1696343427767681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696343427797903, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1696343427799417, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696343427799475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696343427799480, "dur":3403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696343427802940, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696343427802995, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696343427802999, "dur":3846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696343427806896, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696343427807295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696343427807300, "dur":3678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696343427811034, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696343427811585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696343427811591, "dur":3887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696343427815517, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696343427815576, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696343427815581, "dur":4655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696343427820279, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696343427820382, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696343427820388, "dur":5458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696343427825886, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1696343427825940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696343427826015, "dur":2819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1696343427828872, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1696343427829036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696343427829040, "dur":3362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1696343427832445, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1696343427832492, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696343427832498, "dur":4374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1696343427836912, "dur":60835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427763786, "dur":259, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427764045, "dur":3535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427767580, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1696343427767641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427779210, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1696343427780548, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427780639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427780647, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427782380, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427782435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427782443, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427783848, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427783905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427783910, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427785324, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427785359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427785363, "dur":2123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427787529, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427787786, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427787817, "dur":5309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427793168, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427793212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427793216, "dur":2292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427795548, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427795594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427795599, "dur":3065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427798726, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427798777, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427798783, "dur":3526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427802346, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427802386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427802392, "dur":3984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427806480, "dur":733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427807216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427807222, "dur":4025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427811298, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427811361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427811367, "dur":3442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427814846, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427814978, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427814987, "dur":3649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427818676, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427818728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427818733, "dur":3655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427822427, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427822469, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427822474, "dur":5318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696343427827832, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1696343427827879, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427827884, "dur":2809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1696343427830752, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/level3" }}
+,{ "pid":12345, "tid":10, "ts":1696343427830795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696343427830840, "dur":4628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/level3" }}
+,{ "pid":12345, "tid":10, "ts":1696343427835538, "dur":62201, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696343427763813, "dur":236, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696343427764049, "dur":3532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696343427767581, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1696343427767662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696343427797413, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1696343427799073, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696343427799120, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696343427799126, "dur":3485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696343427802663, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696343427802708, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696343427802714, "dur":3183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696343427805941, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696343427806016, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696343427806022, "dur":3272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696343427809346, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696343427809562, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696343427809568, "dur":3701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696343427813309, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696343427813466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696343427813472, "dur":3841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696343427817356, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696343427817400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696343427817406, "dur":4399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696343427821853, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696343427821903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696343427821911, "dur":3990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696343427825941, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":11, "ts":1696343427825981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696343427825987, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":11, "ts":1696343427828241, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1696343427828295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696343427828300, "dur":4419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1696343427832761, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1696343427832806, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696343427832816, "dur":3520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/level0" }}
+,{ "pid":12345, "tid":11, "ts":1696343427836378, "dur":61360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696343427763837, "dur":215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696343427764052, "dur":3519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696343427767576, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1696343427767651, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696343427787526, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1696343427789483, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427789558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696343427789568, "dur":3178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427792833, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427792900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696343427792907, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427795876, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427795918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696343427795974, "dur":3722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427799734, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427799785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696343427799790, "dur":3604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427803445, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427803499, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696343427803504, "dur":3776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427807333, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427807481, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696343427807486, "dur":3276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427810816, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427810951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696343427810956, "dur":3324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427814334, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427814474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696343427814479, "dur":4132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427818682, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427818828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696343427818833, "dur":4009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427822879, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427822921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696343427822927, "dur":5139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696343427828115, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1696343427828172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696343427828177, "dur":2892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1696343427831135, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1696343427831196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696343427831201, "dur":5208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Raymond/Desktop/University projects/Zoo Brawl release/Zoo Brawl_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1696343427836440, "dur":61324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696343427902966, "dur":2671, "ph":"X", "name": "ProfilerWriteOutput" }
+,
