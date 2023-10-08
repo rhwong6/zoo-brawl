@@ -1,4 +1,4 @@
-# music-monkey
+# zoo-brawl
 An educational, animal-themed digital card game where you can create a deck and play against an AI opponent.
 
 Running the game (by downloading release on drive):
