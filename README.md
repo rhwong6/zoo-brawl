@@ -7,8 +7,7 @@ Running the game (by downloading release on drive):
 
 Running the game (by cloning the repository):
 1. Clone the repository to a local directory (git clone https://github.com/rhwong6/zoo-brawl.git)
-2. Run the "git lfs pull" command to obtain the large image files
-3. Run "Zoo Brawl.exe" in the "zoo brawl release" folder
+2. Run "Zoo Brawl.exe" in the "zoo brawl release" folder
 
 Running the game (without animal images through downloading repository):
 1. Download and extract zip of repository
